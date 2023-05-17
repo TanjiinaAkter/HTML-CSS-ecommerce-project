@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS ECOMMERCE PROJECT</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Italianno&family=Roboto&display=swap"
+      rel="stylesheet" />
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/4641379dd3.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- ==== navber section starts ==== -->
+
+    <i id="menu-icon" class="fa-solid fa-bars fa-2x"></i>
+    <nav id="menu" class="hidden">
+      <ul class="nav-upper flex-space-around">
+        <li class="nav-list">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-list">
+          <a href="register.html" class="nav-link">Register</a>
+        </li>
+
+        <li class="nav-list">
+          <a href="login.html" class="nav-link">Login</a>
+        </li>
+
+        <li class="nav-list">
+          <a href="index.html" class="nav-link">Logout</a>
+        </li>
+
+        <li class="nav-list">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-list">
+          <a href="profile.html" class="nav-link">
+            <img class="profile-icon" src="images/profile.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="lower-nav flex-space-around">
+      <li class="nav-list">
+        <a class="nav-brand nav-link" href="/index.html">Tanjina Akter</a>
+      </li>
+      <li class="nav-list">
+        <a class="nav-link" href="/cart.html">
+          <span><i class="card-design fas fa-cart-shopping"></i></span>
+          Cart 2 products-$142.40
+        </a>
+      </li>
+    </ul>
+
+    <main>
+      <section class="contact-section">
+        <h2 class="sectin-title text-center">Contact Us</h2>
+        <div class="contact-container flex-center">
+          <form action="" class="form card">
+            <div class="form-control flex-center">
+              <label for="name">Name</label>
+              <input type="text" id="name" required autocomplete="name" />
+            </div>
+            <div class="form-control flex-center">
+              <label for="email">Email</label>
+              <input type="email" id="email" required autocomplete="email" />
+            </div>
+            <div class="form-control flex-center">
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-control flex-center form-btn-field">
+              <button type="submit" class="btn contact-btn">Submit</button>
+            </div>
+          </form>
+          <div class="contact-address flex-center">
+            <address>
+              <h4>Adress:</h4>
+              <p>123 high street</p>
+              <p>Tampere, Finland</p>
+
+              <br>
+              <span>Call:</span>
+              <a href="tel:+1234567890">+1234567890</a>
+            </address>
+            <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14612.17675733889!2d90.42407445023443!3d23.710115959162962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9cbc59133f5%3A0x1496634384d98b5c!2sJatrabari%20Bus%20Stop!5e0!3m2!1sen!2sbd!4v1684339957853!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="contact flex-center">
+        <h2 class="contact-title text-center">contact page</h2>
+        <div class="contact-card-map flex-center">
+          <div class="card">
+            <div class="contact-form flex-center">
+              <label for="name">Name</label>
+              <input type="email" id="email" required autocomplete="email" />
+            </div>
+            <div class="contact-form flex-center">
+              <label for="email">Email</label>
+              <input type="email" id="email" required autocomplete="email" />
+            </div>
+            <div class="contact-form flex-center">
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <button class="btn contact-btn">Submit</button>
+          </div>
+          <div class="map">
+            <div class="address">
+              <address>Address:</address>
+              <address>Paniskatu,2D 99</address>
+              <address>44477 tempere,Finland</address>
+             <address class="call-para" >Call: <span class="call">+0124349874224</span> </address> 
+            </div>
+            <div class="google-map">
+              <iframe class="map-height" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.0441803873987!2d90.43179927520974!3d23.71011627869791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9cbc59133f5%3A0x1496634384d98b5c!2sJatrabari%20Bus%20Stop!5e0!3m2!1sen!2sbd!4v1684318676446!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <footer class="footer flex-space-around">
+      <div class="flex-space-around">
+        <label for="subscribe">subscribe to our newslatter:</label>
+        <input
+          class="footer-input"
+          id="subscribe"
+          type="email"
+          name="subscribe"
+          placeholder="Your email address" />
+        <button class="btn btn-subscribe">Subscribe</button>
+      </div>
+      <div>
+        <p>&copy; Copyright 2023 Tanjina Akter Reserved</p>
+      </div>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
